@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+</head>
+<body>
+  
+  <section class="hero is-primary">
+  <div class="hero-body">
+    <p class="title">
+      Site e-commerce
+    </p>
+    <p class="subtitle">
+     Abrivard Dwain
+    </p>
+  </div>
+</section>
+  
+  <div class="wrap columns main">
+    <div class="column is-8 has-background-dark">
+    <ul >
+      <li><button type="button" data-category="tous" class="button is-primary category">Tous</button></li>
+      <li><button type="button" data-category="one piece" class="button is-primary category">One Piece</button></li>
+      <li><button type="button" data-category="dbz" class="button is-primary category">Dragon Ball</button></li>
+      <li><button type="button" data-category="adt" class="button is-primary category">ADT</button></li>   
+      <li><button type="button" data-category="mha" class="button is-primary category">MHA</button></li>   
+    </ul>
+
+    <div class="search">
+      <input type="text" id="search" placeholder="Rechercher...">
+    </div>
+      <div class="columns is-multiline">
+        <article class="column is-4">
+          <div class="product box" data-category="dbz" data-title="Figurine Son Goku" data-price="60">
+            <figure class="image mb-2">
+              <img style="width: 400px; height: 260px; object-fit: cover;" src="https://cdn.shopify.com/s/files/1/0481/0457/1045/products/DragonBallZ_Son_Goku_Super_Saiyan_1.jpg?v=1667110332" alt="image">
+            </figure>
+            <div class="level">
+              <h2 class="title is-4 mb-2">
+                Figurine Son Goku
+              </h2>
+              <p class="is-size-5 has-text-weight-bold has-text-primary">
+                60 €
+              </p>
+            </div>
+            <p>
+              <button type="button" class="button is-primary is-fullwidth">
+                add to cart
+              </button>
+            </p>
+          </div>
+        </article>
+        <article class="column is-4">
+          <div class="product box" data-category="dbz" data-title="Figurine Son Gohan" data-price="50">
+            <figure class="image mb-2">
+              <img style="height: 260px; width: 400px; object-fit: cover;" src="https://www.foxchip-collector.com/138273/figurine-dbz-super-saiyan- Gohan-gohan-solid-edge-works-vol-5-16cmdragon-ball-z.jpg" alt="image">
+            </figure>
+            <div class="level">
+              <h2 class="title is-4 mb-2">
+                Figurine Son Gohan
+              </h2>
+              <p class="is-size-5 has-text-weight-bold has-text-primary">
+                50 €
+              </p>
+            </div>
+            <p>
+              <button type="button" class="button is-primary is-fullwidth">
+                add to cart
+              </button>
+            </p>
+          </div>
+        </article>
+        <article class="column is-4">
+          <div class="product box" data-category="one piece" data-title="Figurine Sabo One piece" data-price="34">
+            <figure class="image mb-2">
+              <img style="height: 260px; width: 400px; object-fit: cover;" src="https://mangahouse.fr/wp-content/uploads/2022/11/figurine-sabo-onepiece-manga.jpg" alt="image">
+            </figure>
+            <div class="level">
+              <h2 class="title is-4 mb-2">
+                Figurine Sabo 
+              </h2>
+              <p class="is-size-5 has-text-weight-bold has-text-primary">
+                34 €
+              </p>
+            </div>
+            <p>
+              <button type="button" class="button is-primary is-fullwidth">
+                add to cart
+              </button>
+            </p>
+          </div>
+        </article>
+        <article class="column is-4">
+          <div class="product box" data-category="one piece" data-title="Figurine Barbe N" data-price="50">
+            <figure class="image mb-2">
+              <img style="height: 260px; width: 400px; object-fit: cover;" src="https://cdn.shopify.com/s/files/1/0663/3508/0695/products/figurine-one-piece-barbe-noire-marshall-d-teach-figurines-mangas-38262974611703.jpg?v=1678368274" alt="image">
+            </figure>
+            <div class="level">
+              <h2 class="title is-4 mb-2">
+                Figurine Barbe N
+              </h2>
+              <p class="is-size-5 has-text-weight-bold has-text-primary">
+                50 €
+              </p>
+            </div>
+            <p>
+              <button type="button" class="button is-primary is-fullwidth">
+                add to cart
+              </button>
+            </p>
+          </div>
+        </article>
+        <article class="column is-4">
+          <div class="product box" data-category="one piece" data-title="Figurine Zoro" data-price="45">
+            <figure class="image mb-2">
+              <img style="height: 260px; width: 400px; object-fit: cover;" src="https://cdn.shopify.com/s/files/1/0550/2337/0490/products/figurine-3-lames-roronoa-zoro-one-piece-416782.jpg?v=1640783982" alt="image">
+            </figure>
+            <div class="level">
+              <h2 class="title is-4 mb-2">
+                Figurine Zoro
+              </h2>
+              <p class="is-size-5 has-text-weight-bold has-text-primary">
+                45 €
+              </p>
+            </div>
+            <p>
+              <button type="button" class="button is-primary is-fullwidth">
+                add to cart
+              </button>
+            </p>
+          </div>
+        </article>
+        <article class="column is-4">
+          <div class="product box" data-category="mha" data-title="Figurine Bakugo" data-price="28">
+            <figure class="image mb-2">
+              <img style="height: 260px; width: 400px; object-fit: cover;" src="https://i0.wp.com/japandco.net/wp-content/uploads/2022/05/MY-HERO-ACADEMIA-FIGURINE-KATSUKI-BAKUGO-1-4-JAPANDCO-1.jpg?fit=800%2C800&ssl=1" alt="image">
+            </figure>
+            <div class="level">
+              <h2 class="title is-4 mb-2">
+                Figurine Bakugo
+              </h2>
+              <p class="is-size-5 has-text-weight-bold has-text-primary">
+                28 €
+              </p>
+            </div>
+            <p>
+              <button type="button" class="button is-primary is-fullwidth">
+                add to cart
+              </button>
+            </p>
+          </div>
+        </article>
+        <article class="column is-4">
+          <div class="product box" data-category="adt" data-title="Figurine Eren" data-price="34">
+            <figure class="image mb-2">
+              <img style="height: 260px; width: 400px; object-fit: cover;" src="https://cdn.shopify.com/s/files/1/0549/6333/9439/products/13_5cd468aa-92f6-4ec9-a0a7-55ca3338104a_800x.jpg?v=1627955238" alt="image">
+            </figure>
+            <div class="level">
+              <h2 class="title is-4 mb-2">
+                Figurine Eren
+              </h2>
+              <p class="is-size-5 has-text-weight-bold has-text-primary">
+                34 €
+              </p>
+            </div>
+            <p>
+              <button type="button" class="button is-primary is-fullwidth">
+                add to cart
+              </button>
+            </p>
+          </div>
+        </article>
+        <article class="column is-4">
+          <div class="product box" data-category="adt" data-title="Figurine Erwin" data-price="32">
+            <figure class="image mb-2">
+              <img style="height: 260px; width: 400px; object-fit: cover;" src="https://m.chibi-akihabara.com/38699/attack-on-titan-figurine-erwin-smith-figma-action-figure.jpg" alt="image">
+            </figure>
+            <div class="level">
+              <h2 class="title is-4 mb-2">
+                Figurine Erwin
+              </h2>
+              <p class="is-size-5 has-text-weight-bold has-text-primary">
+                32 €
+              </p>
+            </div>
+            <p>
+              <button type="button" class="button is-primary is-fullwidth">
+                add to cart
+              </button>
+            </p>
+          </div>
+        </article>
+        <article class="column is-4">
+          <div class="product box" data-category="mha" data-title="Figurine Izuku" data-price="35">
+            <figure class="image mb-2">
+              <img style="height: 260px; width: 400px; object-fit: cover;" src="https://m.chibi-akihabara.com/46065/my-hero-academia-world-heroes-mission-figurine-izuku-midoriya-the-amazing-heroes-.jpg" alt="image">
+            </figure>
+            <div class="level">
+              <h2 class="title is-4 mb-2">
+                Figurine Izuku
+              </h2>
+              <p class="is-size-5 has-text-weight-bold has-text-primary">
+                35 €
+              </p>
+            </div>
+            <p>
+              <button type="button" class="button is-primary is-fullwidth">
+                add to cart
+              </button>
+            </p>
+          </div>
+        </article>
+      </div>
+
+    </div>
+
+    <div class="column is-4">
+      <section class="cart box has-background-primary">
+        <h2 class="title is-4 has-text-white">
+          Votre panier
+        </h2>
+
+        <div class="items">
+        </div>
+
+        <footer class="title is-4 has-text-white mt-5">
+          Total : <span>50</span>€
+        </footer>
+      </section>
+    </div>
+  </div>
+
+  
+  <footer id="footer">
+    <ul>
+        <li id="portfolio" class="li-footer"><a href="https://abrivard-dwain-portfolio.netlify.app/" target="_blank"> Portfolio</a></li>
+        <li class="li-footer"><img style="width: 150px;" src="./Media/logoikigai.png" alt="logo ikigai"></li>
+        <li id="sendMail" class="li-footer">contact</li>
+    </ul>
+</footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
